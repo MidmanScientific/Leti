@@ -1,0 +1,131 @@
+body{
+    background-color:lightblue;
+}
+
+
+
+
+
+.two img{
+    width:200px;
+padding:0;
+
+}
+.two{
+    
+    margin:0;
+}
+.three a{
+    position:relative;
+    left:500px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 150px;
+    color:black;
+
+
+}
+.four a{
+    position:relative;
+    left:700px;
+    bottom:20px;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-weight: 150px;
+
+
+}
+    
+.vi .ii{
+    position:relative;
+    left:100px;
+    margin:0;
+    font-family:cursive;
+    color:dimgrey;
+
+    
+
+}
+.vi .iii{
+    position:relative;
+    left:100px;
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:dimgrey;
+   
+}
+.link a button{
+    height:30px;
+    width:100px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color:aquamarine; 
+    align-items:center;
+ 
+ 
+}
+
+.link a button:hover  {
+    box-shadow: 0.5px 5px 5px 5px;
+    background-color:rgb(0, 0, 255);
+    border-radius:20px;
+    cursor:pointer;
+  
+
+    }
+    .link a button:hover   {
+
+   transition-timing-function:ease-out;
+    }
+
+.container {
+    height: 200px;
+    position: relative;
+    
+  }
+  
+  .link {
+    
+    position: absolute;
+    top: 70%;
+    left:600px;   
+  }
+  .iii span .iv{
+    color:lightslategray
+  }
+
+  .emma img{
+    position:relative;
+    left:900px;
+    top:50px;
+    height: 400px;;
+    width:400px;
+  }
+  a .click{
+    color:rgba(47, 79, 79, 0.438)
+  }
+  
+  .vi:hover .ii{
+   margin-left:50px;
+   transition:3s;
+   color:beige;
+
+  }
+  .vi .iii{
+    transition:4s;
+  }
+  .vi .ii{
+    transition:3s;
+  }
+  .vi:hover .iii{
+   margin-left:30px;
+   transition:1s 0.5s;
+  }
+@media(max-width:200px){
+  *{
+    width:10px;
+  }
+}

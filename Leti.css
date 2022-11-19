@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;  
+}
+
+
+#home{
+    margin:auto;
+}
+/*Styling the  whole nav bar with a color*/
+.navbar{
+  background-color: black;
+   overflow:hidden;
+}
+
+.navbar  a {
+    float:left;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:17px;
+    transition: all .5s ease;
+    font-family:raleway;
+    font-weight:bold;
+}
+
+.navbar a.one{
+    margin-left:30px;
+}
+
+
+/*.navbar ul li {
+    font-size:1.1rem;
+    font-family:century;
+    font-weight: bold;
+}*/
+ 
+
+    .navbar  a:hover{
+        background-color:rgb(213, 7, 41);
+        color:white;
+        box-shadow: 0 0 10 white;
+        
+    }
+
+   /*.navbar a.split{
+    float:right;
+    margin-right:40px;
+   }*/
+
+#home h3 {
+    position:relative;
+    font-weight: lighter;
+    left:60%;
+    top:200px;
+    font-size: 20px;
+    font-family:century;
+    font-weight:light;
+    color:rgb(255, 255, 255)   
+}
+
+#home .btn {
+    position:relative;
+    left:30%;
+    top:160px;
+}
+   
+#home h1 {
+    position:relative;
+    left:60%;
+    top:210px;
+    font-size: 30px;
+    color:white;
+    font-family: raleway;
+   
+}
+
+#home .btn1 {
+    position:relative;
+    left:10%;
+    top:160px;
+    
+}
+.heading1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+}
+
+.btn{
+    padding:10px 35px;
+    background-color:transparent;
+    border:1px solid white;
+    color:white;
+    outline: none;
+    font-family:raleway;
+    font-weight:bold;
+    
+}
+
+   
+    
+
+.btn:hover{
+    cursor: pointer;
+    background-color:white;
+    color:black;
+    box-shadow:0 0 5px white, 0 0 10px white,0 0 15px white;
+    font-weight: bold;
+    Transition: .6s ease;
+    font-family:century;
+
+}
+.btn1{
+    padding:10px 35px;
+    background-color:transparent;
+    border:1px solid rgb(206, 10, 10);
+    color:white;;
+    outline: none;
+    font-family:century;
+    
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color:rgba(206, 10, 10, 0.712);
+    color:white;
+    box-shadow:0 0 5px rgba(209, 7, 7, 0.71), 0 0 10px rgba(206, 10, 10, 0.71),0 0 15px rgba(206, 10, 10, 0.71);
+    font-weight: bold;
+    Transition: .6s ease;
+    font-family:century;
+    border-style: none;
+}
+ #home{
+    background:url("https://w0.peakpx.com/wallpaper/550/457/HD-wallpaper-daenerys-targaryen-art-fantasy-wings-luminos-game-of-thrones-black-dragon.jpg") no-repeat center center/cover;
+    height:500px;
+    
+ }
+
+
+ body{
+    color:white;
+
+
+ }
+#slider{
+    height:500px;
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family:raleway;
+}
+/*the whole container*/
+.container{
+    width:1600px;
+    margin:auto;
+}
+/*responsive to large screens*/
+.subcontainer{
+    width:85%;
+    margin:auto;
+}
+@media(max-width:1600px){
+    .container{
+        width:100%;
+    }
+}
+/*moving the buttons*/
+.controller{
+display:flex;
+justify-content:space-between;
+}
+/*styling the icons*/
+#controls i{
+color:white;
+font-size:1rem;
+}
+/*further styling around button*/
+.previous,.next{
+    padding:2px;
+    width:30px;
+    cursor:pointer;
+    border-radius:50%;
+    outline:none;
+    transition: 0.7s ease-in-out;
+    border:3px solid white;
+    background-color:black;
+    box-shadow:0 0 5px #bbb;
+
+}
+/*hover effect around button*/
+.previous:hover, .next:hover{
+    border: 3px solid gray;
+}
+
+/*focusing on the image when it been hovered*/
+.slide-img{
+    width:100%;
+    height:275px;
+    
+    background-position:center;
+    background-size:cover;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:0.5s;
+    border-radius:5px
+
+}
+/*After hovering on the image*/
+.slide-img:hover{
+box-shadow:0 0 0 200px rgba(255, 255, 255, 0.147)
+inset;
+}
+/*appearance before link is hovered*/
+
+.slide-img a{
+    text-decoration:none;
+    transition: 0.8s;
+    font-size:20px;
+    color:white;
+   opacity:0;
+}
+/*ppearance after link is hovered*/
+.slide-img a:hover{
+opacity:1;
+transform: scale(1); 
+}
+
+.img-1 {
+    background-image:url(https://images.hdqwalls.com/wallpapers/dark-siders-game-hd.jpg)
+}
+.img-2{
+    background-image:url(https://hdwallpaperim.com/wp-content/uploads/2017/08/24/104000-Batman_Arkham_Asylum.jpg)
+}
+.img-3{
+    background-image:url(https://images4.alphacoders.com/563/563004.jpg)
+}
+.img-4{
+    background-image:url(https://i.pinimg.com/originals/e2/6f/ac/e26fac070e9f097a8c664478cb7a2047.jpg)
+}
+.img-5{
+    background-image:url(https://i.pinimg.com/originals/47/c9/d5/47c9d5ee73653fe879026149e3918328.jpg)
+} 
+.img-6{
+    background-image:url(https://wallpapercave.com/wp/wp9126926.jpg)
+} 
+.img-7{
+    background-image:url(https://browsecat.net/sites/default/files/1920-x-1080-dark-hd-wallpapers-97747-2170767-8839734.png)
+} 
+.img-8{
+    background-image:url(https://c4.wallpaperflare.com/wallpaper/557/591/753/forest-girl-monster-art-wallpaper-preview.jpg)
+} 
+.img-9{
+    background-image:url(https://c4.wallpaperflare.com/wallpaper/333/185/212/forest-wolf-fantasy-art-creatures-1920x1080-abstract-fantasy-hd-art-wallpaper-preview.jpg)
+} 
+.img-10{
+    background-image:url(https://i.pinimg.com/564x/59/3b/e3/593be34f910876f3454e78c67e749df1.jpg)
+} 
+.img-11{
+    background-image:url(https://artfiles.alphacoders.com/812/81223.jpg)
+} 
+.img-12{
+    background-image:url(https://wallpaper.dog/large/10849489.jpg)
+} 
+.img-13{
+    background-image:url(https://free4kwallpapers.com/uploads/originals/2015/12/16/the-darkness-ii-wallpaper.jpg)
+} 
+.img-14{
+    background-image:url(https://s1.1zoom.me/b5050/999/269668-blackangel_3840x2160.jpg)
+} 
+/*Responsiveness*/
+@media (max-width:735px){
+ .navbar a{
+       margin-left:10px;
+       font-size:10px;
+    }
+} 
+@media(max-width:756px){
+    #home h3,#home h1{
+        left:40%;
+        font-size:15px;
+    }
+
+}
+@media(max-width:756px){
+    #home h3,#home h1{
+        left:20%;
+        font-size:15px;
+    }
+
+}
+
+
+
+
+
+@media(max-width:756px){
+    #home .btn{
+        top:270px;
+        left:20%;
+        
+    }
+
+}
+/*
+@media(max-width:1280px),(max-height:800px){
+    #home .btn{
+        top:220px;
+        left:60%;
+        
+    }
+   
+}*/
+
+
+

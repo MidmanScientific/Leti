@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MidamanScientific</title>
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet"  media="screen and (max-width:800px)" href="Tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#Services">Services</a></li>
+<li><a href="#Contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home"><div class="main">
+<h1 class="heading">Welcome to Midman <br>Scientific</h1>
+<button class="btn">Explore</button>
+    </div>
+    </section>
+
+    <section id="about">
+        <div id="pic">
+  <h1 class="heading">About</h1>
+  <img src="Downloads/WhatsApp Image 2022-10-20 at 11.37.17 AM.jpeg" alt="">
+  <div class="intro">
+    <h2>Midman Scientific</h2>
+    <p>
+  Midman Scientifics deals in the supply of mining chemicals<br>industrial chemicals<br>Fertilizers and hospital chemicals.
+</p>
+  </div>
+        </div>
+    </section>
+    <section id="Services">
+        <h1 class="heading">Services</h1>
+        <div class="gallery">
+            <img src="Downloads/WhatsApp Image 2022-09-30 at 5.00.24 AM (1).jpeg" alt="">
+            <img src="Downloads/WhatsApp Image 2022-10-20 at 8.22.37 AM.jpeg" alt="">
+            <img src="Downloads/WhatsApp Image 2022-10-20 at 8.22.38 AM (1).jpeg" alt="">
+            <img src="Downloads/WhatsApp Image 2022-10-20 at 8.22.38 AM (2).jpeg" alt="">
+        </div>
+    </section>
+
+    <section id="Contact"> 
+        <h1 class="heading">Contact</h1>
+        <form action="https://formsubmit.co/marnuel19clerk@gmail.com"       method="POST"  class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name" required>
+            <input type="email"  name="email" class="input" placeholder="Enter your email" required>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+            <input type="Submit" value="Send" id="Send">
+
+        </form>
+        <div class="icons"><a href=" https://wa.me/0595734001"><img src="Downloads/whatsapp1.webp" class="whats" alt=""></a><br>
+        <a href="https://www.facebook.com/profile.php?id=100087089350921"><img src="Downloads/facebook logo.webp" class="face" alt=""></a><br>
+         <a href=" http://www.instagram.com/midmanscientific"><img src="Downloads/instagram logo.png" class="insta" alt=""></a></div>
+    </section>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCG2zrcVgSmTs5HAjtJCuiSNATa_yesWhk",
+          authDomain: "midman-scientific.firebaseapp.com",
+          projectId: "midman-scientific",
+          storageBucket: "midman-scientific.appspot.com",
+          messagingSenderId: "841080073690",
+          appId: "1:841080073690:web:d7673c419995bf472d24e3",
+          measurementId: "G-X2FNEQCRQT"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+
+</body>
+</html> 
